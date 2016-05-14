@@ -27,8 +27,8 @@ $config['base_url']	= 'http://playnlearn.azurewebsites.net'; /*'http://localhost
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
-//$config['index_page'] = '';
+//$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 /*
 |--------------------------------------------------------------------------
 | URI PROTOCOL
