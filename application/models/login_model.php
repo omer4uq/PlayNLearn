@@ -17,7 +17,7 @@ class login_model extends CI_Model {
         if ($query->num_rows == 1)
         {
             $row = $query->row();
-            $NewPassword = $row->parent_password;//$this->encrypt->decode($row->parent_password);
+            $NewPassword = $this->encrypt->decode($row->parent_password);
             if($password == $NewPassword)
             {
                 $type = $row->type;
@@ -56,7 +56,7 @@ class login_model extends CI_Model {
         if ($query->num_rows == 1)
         {
             $row = $query->row();
-            $NewPassword =$row->password;//$this->encrypt->decode($row->password);
+            $NewPassword =$this->encrypt->decode($row->password);
             if($password == $NewPassword)
             {
                 $type = $row->type;
