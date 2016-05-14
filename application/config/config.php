@@ -15,7 +15,7 @@
 |
 */
 
-$config['base_url']	= 'http://playnlearn.azurewebsites.net/index.php'; /*'http://localhost/PlayNLearn';*/
+$config['base_url']	= 'http://playnlearn.azurewebsites.net'; /*'http://localhost/PlayNLearn';*/
 
 /*
 |--------------------------------------------------------------------------
@@ -46,8 +46,8 @@ $config['index_page'] = '';
 |
 */
 
-$config['uri_protocol']	= 'AUTO';
-//$config['uri_protocol']	= 'REQUEST_URI';
+//$config['uri_protocol']	= 'AUTO';
+$config['uri_protocol']	= 'REQUEST_URI';
 /*
 |--------------------------------------------------------------------------
 | URL suffix
