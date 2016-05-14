@@ -49,6 +49,7 @@
 $active_group = 'default';
 //$active_group = 'heroku';
 $active_record = TRUE;
+/*
 
   $db['default']['hostname'] = 'localhost';
    $db['default']['username'] = 'root';
@@ -66,7 +67,7 @@ $active_record = TRUE;
    $db['default']['autoinit'] = TRUE;
    $db['default']['stricton'] = FALSE;
 
-/*
+*/
  $db['default']['hostname'] = 'tcp:glearningtest.database.windows.net';
 $db['default']['username'] = 'glearn';
  $db['default']['password'] = 'Bu33l3gum';
@@ -82,7 +83,6 @@ $db['default']['char_set'] = 'utf8';
  $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
  $db['default']['stricton'] = FALSE;
-*/
 
 /* End of file database.php */
 ?>
