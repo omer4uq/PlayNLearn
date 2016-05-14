@@ -15,7 +15,7 @@
 |
 */
 
-$config['base_url']	= 'http://playnlearn.azurewebsites.net/';//'http://localhost/PlayNLearn';
+$config['base_url']	= 'http://playnlearn.azurewebsites.net'; /*'http://localhost/PlayNLearn';*/
 
 /*
 |--------------------------------------------------------------------------
