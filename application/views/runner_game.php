@@ -15,8 +15,10 @@
 		<script type="text/javascript">
 	
                         var level = <?php echo $level;?>;
+alert(level);
+
                          var drill_id = <?php echo $drill_id;?>;
-                         
+alert(drill_id);                         
 			var config = {
 				width: 960, 
 				height: 540,
@@ -75,7 +77,7 @@
                     if(level==3)
                         u.getUnity().SendMessage("GameManager", "setRange", "50");    
 
-				
+				alert("I a inside unity starting function");
              	 }
 				function SayHello( arg )
 				{
