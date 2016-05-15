@@ -68,10 +68,10 @@ $active_record = TRUE;
    $db['default']['stricton'] = FALSE;
 
 */
- $db['default']['hostname'] = 'tcp:glearningtest.database.windows.net';
-$db['default']['username'] = 'glearn';
- $db['default']['password'] = 'Bu33l3gum';
- $db['default']['database'] = 'GlearningTest';
+ $db['default']['hostname'] = 'tcp:plntest.database.windows.net,1433';
+$db['default']['username'] = 'omer';
+ $db['default']['password'] = 'classix1.';
+ $db['default']['database'] = 'PlayLearnTest';
  $db['default']['dbdriver'] = 'sqlsrv';
  $db['default']['dbprefix'] = '';
  $db['default']['pconnect'] = FALSE;
