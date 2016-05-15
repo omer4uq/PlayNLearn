@@ -63,7 +63,7 @@ alert(drill_id);
 					}
 				});
 				u.initPlugin(jQuery("#unityPlayer")[0], "<?php echo base_url();?>/assets/unitygames/Runner.unity3d");
-
+alert("<?php echo base_url();?>/assets/unitygames/Runner.unity3d");
 			});
 				function updateRange()
 				{
@@ -77,7 +77,7 @@ alert(drill_id);
                     if(level==3)
                         u.getUnity().SendMessage("GameManager", "setRange", "50");    
 
-				alert("I a inside unity starting function");
+				
              	 }
 				function SayHello( arg )
 				{
@@ -241,7 +241,8 @@ alert(drill_id);
 				</div>
 				<div class="broken">
 					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now! Restart your browser after install.">
-						<img alt="Unity Web Player. Install now! Restart your browser after install." src="http://webplayer.unity3d.com/installation/getunityrestart.png" width="193" height="63" />
+						<img alt="Unity Web Player. Install now! Restart your browser after ins
+tall." src="http://webplayer.unity3d.com/installation/getunityrestart.png" width="193" height="63" />
 					</a>
 				</div>
 			</div>
