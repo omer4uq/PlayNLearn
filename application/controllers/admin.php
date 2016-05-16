@@ -216,9 +216,9 @@ class admin extends CI_Controller
             $mail->Body = "Hello ".$username.",<br/><br/>
             Your New Password is ".$password." <br/><br/>
             Regards,<br/>
-            Support - G-Learning";
+            Support - Play And Learn";
 
-            $mail->AltBody = "Your G-Learning Password has been changed"; //Text Body
+            $mail->AltBody = "Your Play And Learn Password has been changed"; //Text Body
             if(!$mail->Send()){
                 $this->session->set_userdata('errorFlag',false);
                 $this->session->set_userdata('errorMessage',$username."'s Password not updated");
@@ -234,7 +234,7 @@ class admin extends CI_Controller
             $this->session->set_userdata('errorMessage',$username."'s Password not updated");
         }
         
-        $data['page_title'] = 'G-Learning | Admin';
+        $data['page_title'] = 'Play And Learn | Admin';
         $this->load->view('main_header_new',$data);
         $this->load->view('password_requests_view');
         $this->load->view('footer_new_design');

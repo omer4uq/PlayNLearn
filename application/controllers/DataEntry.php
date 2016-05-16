@@ -107,7 +107,7 @@ class DataEntry extends CI_Controller{
                 //  loading view
                    $data['scroll_to_div'] = 'edit_assess_search_no_match';
                    $data['searched_assessment']= $assess_name;
-                   $data['page_title'] = 'G-Learning | Teacher';
+                   $data['page_title'] = 'Play And Learn | Teacher';
                    $data['assessments'] = $this->Teacher_Model->get_assessments_by_teacher($teacher_id)->result_array();
                    $drills = $this->Teacher_Model->getAllDrills();
                     $myDrillNames = array();
@@ -136,7 +136,7 @@ class DataEntry extends CI_Controller{
                     $data['scroll_to_div'] = 'edit_assess_search_match';
                     $data['searched_assessment']= $assess_name;
                     $data['no_of_questions'] = $i;
-                    $data['page_title'] = 'G-Learning | Teacher';
+                    $data['page_title'] = 'Play and Learn | Teacher';
                     $data['assessments'] = $this->Teacher_Model->get_assessments_by_teacher($teacher_id)->result_array();
                     $drills = $this->Teacher_Model->getAllDrills();
                     $myDrillNames = array();
@@ -175,7 +175,7 @@ class DataEntry extends CI_Controller{
            {
                 $data['scroll_to_div'] = 'update_assess_updation_error';
                 $data['searched_assessment']= $assess_name;
-                $data['page_title'] = 'G-Learning | Teacher';
+                $data['page_title'] = 'Play And Learn | Teacher';
                 $data['assessments'] = $this->Teacher_Model->get_assessments_by_teacher($teacher_id)->result_array();
                 $drills = $this->Teacher_Model->getAllDrills();
                 $myDrillNames = array();
@@ -193,7 +193,7 @@ class DataEntry extends CI_Controller{
            }
         }
                 //loading add_view
-                    $data['page_title'] = 'G-Learning | Teacher';
+                    $data['page_title'] = 'Play And Learn | Teacher';
                     $data['scroll_to_div'] = 'update_assess';
                     $data['assessments'] = $this->Teacher_Model->get_assessments_by_teacher($teacher_id)->result_array();
                     $drills = $this->Teacher_Model->getAllDrills();
@@ -222,7 +222,7 @@ class DataEntry extends CI_Controller{
         if ( $result==0) //insertion failed
         {
             //loading delete_assess
-                $data['page_title'] = 'G-Learning | Teacher';
+                $data['page_title'] = 'Play and Learn | Teacher';
                 $data['scroll_to_div'] = 'delete_failed';
                 $data['assessments'] = $this->Teacher_Model->get_assessments_by_teacher($teacher_id)->result_array();
                 $drills = $this->Teacher_Model->getAllDrills();
@@ -242,7 +242,7 @@ class DataEntry extends CI_Controller{
         }else
         {
                 //loading delete_assess
-                $data['page_title'] = 'G-Learning | Teacher';
+                $data['page_title'] = 'Play And Learn | Teacher';
                 $data['scroll_to_div'] = 'delete_assess';
                  $data['assessments'] = $this->Teacher_Model->get_assessments_by_teacher($teacher_id)->result_array();
                 $drills = $this->Teacher_Model->getAllDrills();
@@ -280,7 +280,7 @@ class DataEntry extends CI_Controller{
             {
                 $data['no_of_students'] = $j;
                 //loading delete_assess
-                $data['page_title'] = 'G-Learning | Teacher';
+                $data['page_title'] = 'Play And Learn | Teacher';
                 $data['assessments'] = $this->Teacher_Model->get_assessments_by_teacher($teacher_id)->result_array();
 
                 $data['scroll_to_div'] = 'view_student';

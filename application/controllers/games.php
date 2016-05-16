@@ -46,7 +46,7 @@ class games extends CI_Controller{
         $this->load->model('levels_model');
         $person_id = $this->session->userdata['person_id'];
         
-        $data['page_title'] = 'G-Learning | Catchy';
+        $data['page_title'] = 'Play And Learn | Catchy';
         $data['level'] =  $this->levels_model->checkLevel($person_id);
         $data['drill_id'] = $this->levels_model->getDrillId("Multiples");
         
@@ -60,7 +60,7 @@ class games extends CI_Controller{
         $this->load->model('levels_model');
         $person_id = $this->session->userdata['person_id'];
      
-        $data['page_title'] = 'G-Learning | Balloon Party';
+        $data['page_title'] = 'Play And Learn | Balloon Party';
         $data['level'] =  $this->levels_model->checkLevel($person_id);
         $data['drill_id'] = $this->levels_model->getDrillId("Highest/Lowest");
         $this->load->view('main_header_new',$data);
@@ -77,7 +77,7 @@ class games extends CI_Controller{
     {
         $this->load->model('levels_model');
         $person_id = $this->session->userdata['person_id'];
-        $data['page_title'] = 'G-Learning | Shoot Em Up';
+        $data['page_title'] = 'Play And Learn | Shoot Em Up';
         $data['level'] =  $this->levels_model->checkLevel($person_id);
         $data['drill_id'] = $this->levels_model->getDrillId("Subtraction");
         $this->load->view('main_header_new',$data);
@@ -137,7 +137,7 @@ class games extends CI_Controller{
     }
     public function assessmentBird()
     {
-        $data['page_title'] = 'Play And Learn| Assessment Bird';
+        $data['page_title'] = 'Play And Learn | Assessment Bird';
         $this->load->view('main_header_new',$data);
         $this->load->view('assessment_bird_game', $data);
         $this->load->view('footer');
@@ -165,7 +165,7 @@ class games extends CI_Controller{
         $data['level'] =  $this->levels_model->checkLevel($person_id);
         $data['drill_id'] = $this->levels_model->getDrillId("Descending");
         $data['mode'] = "descending";
-        $data['page_title'] = 'G-Learning | Racer';
+        $data['page_title'] = 'Play And Learn | Racer';
         $this->load->view('main_header_new',$data);
         $this->load->view('racer_game', $data);
         $this->load->view('footer');
