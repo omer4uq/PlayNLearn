@@ -50,7 +50,7 @@
         <?php }?>
   <form method="post" action="<?php echo base_url();?>login/checkLogin" onsubmit="return validateLogin();">
      <label for="username"> Username:</label>
-      <input name="username" id="username"  type="text" placeholder="Username" />
+      <input name="username" id="username"  type="text" placeholder="Username" pattern="[a-zA-Z0-9]+" />
       <label for="password"> Password:</label>
     <input name="password" id="password" type="password" placeholder="Password" />
         <div class="form-group ">
