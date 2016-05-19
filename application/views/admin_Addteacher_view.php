@@ -320,7 +320,7 @@
                                 <td  class="inputField" >First Name:</td>
                                 <td class="input">
                                       <div class="fieldgroup">
-                                        <input type="text" name="firstName" value="" id="firstName" maxlength="20" placeholder="Enter First Name">
+                                        <input type="text" name="firstName" value="" id="firstName" maxlength="20" placeholder="Enter First Name" pattern="[a-zA-Z]+">
                                       </div>
                                 </td>
                             </tr>
@@ -328,7 +328,7 @@
                                 <td  class="inputField" >Last Name:</td>
                                 <td class="input">
                                       <div class="fieldgroup">
-                                        <input type="text" name="lastName" value="" id="lastName" maxlength="40" placeholder="Enter Last Name">
+                                        <input type="text" name="lastName" value="" id="lastName" maxlength="40" placeholder="Enter Last Name" pattern="[a-zA-Z]+">
                                       </div>
                                 </td>
                             </tr>
@@ -352,7 +352,7 @@
                                 <td  class="inputField" >Username:</td>
                                 <td class="input">
                                       <div class="fieldgroup">
-                                        <input type="text" name="username" id="username" maxlength="120" placeholder="Enter Username">
+                                        <input type="text" name="username" id="username" maxlength="120" placeholder="Enter Username" pattern="[a-z0-9]+">
                                       </div>
                                 </td>
                             </tr>
@@ -395,7 +395,7 @@
                                 <td  class="inputField" >First Name:</td>
                                 <td class="input">
                                       <div class="fieldgroup">
-                                        <input type="text" name="firstName" value="" id="edit_firstName" maxlength="20" placeholder="Enter First Name">
+                                        <input type="text" name="firstName" value="" id="edit_firstName" maxlength="20" placeholder="Enter First Name" pattern="[a-zA-Z]+">
                                         <input type="hidden" name="person_id" value="" id="person_id">
                                       </div>
                                 </td>
@@ -404,7 +404,7 @@
                                 <td  class="inputField" >Last Name:</td>
                                 <td class="input">
                                       <div class="fieldgroup">
-                                        <input type="text" name="lastName" value="" id="edit_lastName" maxlength="40" placeholder="Enter Last Name">
+                                        <input type="text" name="lastName" value="" id="edit_lastName" maxlength="40" placeholder="Enter Last Name" pattern="[a-zA-Z]+">
                                       </div>
                                 </td>
                             </tr>
@@ -428,7 +428,7 @@
                                 <td  class="inputField" >Username:</td>
                                 <td class="input">
                                       <div class="fieldgroup">
-                                        <input type="text" name="username" id="edit_username" maxlength="120" placeholder="Enter Username">
+                                        <input type="text" name="username" id="edit_username" maxlength="120" placeholder="Enter Username" pattern="[a-z0-9]+">
                                       </div>
                                 </td>
                             </tr>
@@ -879,7 +879,7 @@
                                 <td  class="inputField" >First Name:</td>
                                 <td class="input">
                                       <div class="fieldgroup">
-                                        <input type="text" name="firstName" value="" id="firstName" maxlength="20" placeholder="Enter First Name">
+                                        <input type="text" name="firstName" value="" id="firstName" maxlength="20" placeholder="Enter First Name" pattern="[a-zA-Z]+">
                                       </div>
                                 </td>
                             </tr>
@@ -887,7 +887,7 @@
                                 <td  class="inputField" >Last Name:</td>
                                 <td class="input">
                                       <div class="fieldgroup">
-                                        <input type="text" name="lastName" value="" id="lastName" maxlength="40" placeholder="Enter Last Name">
+                                        <input type="text" name="lastName" value="" id="lastName" maxlength="40" placeholder="Enter Last Name" pattern="[a-zA-Z]+">
                                       </div>
                                 </td>
                             </tr>
@@ -911,7 +911,7 @@
                                 <td  class="inputField" >Username:</td>
                                 <td class="input">
                                       <div class="fieldgroup">
-                                        <input type="text" name="username" id="username" maxlength="120" placeholder="Enter Username">
+                                        <input type="text" name="username" id="username" maxlength="120" placeholder="Enter Username" pattern="[a-z0-9]+">
                                       </div>
                                 </td>
                             </tr>
@@ -954,7 +954,7 @@
                                 <td  class="inputField" >First Name:</td>
                                 <td class="input">
                                       <div class="fieldgroup">
-                                        <input type="text" name="firstName" value="" id="edit_firstName" maxlength="20" placeholder="Enter First Name">
+                                        <input type="text" name="firstName" value="" id="edit_firstName" maxlength="20" placeholder="Enter First Name" pattern="[a-zA-Z]+">
                                         <input type="hidden" name="person_id" value="" id="person_id">
                                       </div>
                                 </td>
@@ -963,7 +963,7 @@
                                 <td  class="inputField" >Last Name:</td>
                                 <td class="input">
                                       <div class="fieldgroup">
-                                        <input type="text" name="lastName" value="" id="edit_lastName" maxlength="40" placeholder="Enter Last Name">
+                                        <input type="text" name="lastName" value="" id="edit_lastName" maxlength="40" placeholder="Enter Last Name" pattern="[a-zA-Z]+">
                                       </div>
                                 </td>
                             </tr>
@@ -987,7 +987,7 @@
                                 <td  class="inputField" >Username:</td>
                                 <td class="input">
                                       <div class="fieldgroup">
-                                        <input type="text" name="username" id="edit_username" maxlength="120" placeholder="Enter Username">
+                                        <input type="text" name="username" id="edit_username" maxlength="120" placeholder="Enter Username" pattern="[a-z0-9]+">
                                       </div>
                                 </td>
                             </tr>
